@@ -1,0 +1,27 @@
+.footer {
+  max-width: 166px;
+  font-size: 14px;
+  font-weight: 400;
+
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    max-width: 166px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
