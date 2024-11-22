@@ -1,5 +1,5 @@
 .location {
-  margin: 92px 0 92px 148px;
+  margin: 92px 0 0px 148px;
 }
 
 .location__subtitle {
@@ -45,7 +45,7 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1210px) {
   .location {
     margin: 0 auto;
     padding: 90px 0 88px;
@@ -106,7 +106,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 740px) {
   .location {
     margin: 0 auto;
     padding: 64px 0;

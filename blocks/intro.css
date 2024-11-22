@@ -42,7 +42,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1210px) {
   .intro {
     padding: 0;
     display: -webkit-box;
@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 740px) {
   .intro {
     padding: 0;
     display: -webkit-box;
