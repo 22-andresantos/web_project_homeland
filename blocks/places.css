@@ -157,3 +157,140 @@
   -webkit-box-shadow: 5px 5px 10px 0px #00000040;
   box-shadow: 5px 5px 10px 0px #00000040;
 }
+
+@media screen and (max-width: 1210px) {
+  .places {
+    margin: 88px 0 90px 0;
+    max-width: 720px;
+  }
+
+  .places__card {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px 340px 160px;
+    gap: 48px 28px;
+  }
+
+  .places__card-one {
+    margin-top: 72px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 46px 340px 100px;
+    gap: 48px 28px;
+  }
+
+  .places__card-two {
+    margin-top: 72px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px 340px 310px;
+    gap: 48px 28px;
+  }
+
+  .places__card-three {
+    margin-top: 72px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px 340px 105px;
+    gap: 48px 28px;
+  }
+
+  .card__title {
+    font-size: 42px;
+    line-height: 1.09;
+  }
+
+  .card__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .card__image:hover {
+    opacity: 50%;
+  }
+
+  .card__text {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+
+  .card__span {
+    display: block;
+    padding-top: 25px;
+  }
+
+  .card__button {
+    width: 355px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .places {
+    margin: 62px 0 65px 0;
+    max-width: 320px;
+  }
+
+  .places__card {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 70px 89px 395px 595px 48px;
+    gap: 30px;
+  }
+
+  .places__card-one {
+    margin-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 35px 45px 395px 540px 48px;
+    gap: 30px;
+  }
+
+  .places__card-two {
+    margin-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 70px 67px 395px 755px 48px;
+    gap: 30px;
+  }
+
+  .places__card-three {
+    margin-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 35px 67px 395px 545px 48px;
+    gap: 30px;
+  }
+
+  .card__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .card__artist {
+    max-width: 288px;
+  }
+
+  .card__image {
+    width: 320px;
+    height: 395px;
+  }
+
+  .card__image:hover {
+    opacity: 50%;
+  }
+
+  .card__button {
+    width: 288px;
+    height: 48px;
+  }
+}
