@@ -1,15 +1,11 @@
 .places {
   margin: 92px 0 90px 0;
   max-width: 984px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-row-align: center;
-  -ms-grid-column-align: center;
   place-self: center;
 }
 
 .places__card {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 228px 460px 48px;
@@ -18,7 +14,6 @@
 
 .places__card-one {
   margin-top: 80px;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 76px 460px 48px;
@@ -27,7 +22,6 @@
 
 .places__card-two {
   margin-top: 80px;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 152px 460px 120px;
@@ -36,7 +30,6 @@
 
 .places__card-three {
   margin-top: 80px;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 152px 460px 48px;
@@ -52,9 +45,7 @@
   text-align: left;
   color: #ffffff;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
-  -ms-flex-item-align: end;
   align-self: flex-end;
 }
 
@@ -63,11 +54,7 @@
   padding: 0;
   list-style-type: none;
   text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -80,7 +67,6 @@
   letter-spacing: 8px;
   color: #aaaaaa;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -111,7 +97,6 @@
   line-height: 1.63;
   color: #ffffff;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -165,7 +150,6 @@
   }
 
   .places__card {
-    display: -ms-grid;
     display: grid;
     grid-template-columns: 340px 352px;
     grid-template-rows: 92px 340px 160px;
@@ -174,7 +158,6 @@
 
   .places__card-one {
     margin-top: 72px;
-    display: -ms-grid;
     display: grid;
     grid-template-columns: 340px 352px;
     grid-template-rows: 46px 340px 100px;
@@ -183,7 +166,6 @@
 
   .places__card-two {
     margin-top: 72px;
-    display: -ms-grid;
     display: grid;
     grid-template-columns: 340px 352px;
     grid-template-rows: 92px 340px 310px;
@@ -192,7 +174,6 @@
 
   .places__card-three {
     margin-top: 72px;
-    display: -ms-grid;
     display: grid;
     grid-template-columns: 340px 352px;
     grid-template-rows: 92px 340px 105px;
@@ -236,53 +217,58 @@
   }
 
   .places__card {
-    display: -ms-grid;
     display: grid;
+    justify-items: center;
     grid-template-columns: 320px;
-    grid-template-rows: 70px 89px 395px 595px 48px;
+    grid-template-rows: 70px 89px 320px 645px 48px;
     gap: 30px;
   }
 
   .places__card-one {
     margin-top: 50px;
-    display: -ms-grid;
     display: grid;
+    justify-items: center;
     grid-template-columns: 320px;
-    grid-template-rows: 35px 45px 395px 540px 48px;
+    grid-template-rows: 35px 45px 320px 620px 48px;
     gap: 30px;
   }
 
   .places__card-two {
     margin-top: 50px;
-    display: -ms-grid;
     display: grid;
+    justify-items: center;
     grid-template-columns: 320px;
-    grid-template-rows: 70px 67px 395px 755px 48px;
+    grid-template-rows: 70px 67px 320px 855px 48px;
     gap: 30px;
   }
 
   .places__card-three {
     margin-top: 50px;
-    display: -ms-grid;
     display: grid;
+    justify-items: center;
     grid-template-columns: 320px;
-    grid-template-rows: 35px 67px 395px 545px 48px;
+    grid-template-rows: 35px 67px 320px 565px 48px;
     gap: 30px;
   }
 
   .card__title {
-    max-width: 288px;
+    width: 288px;
+    text-align: left;
     font-size: 32px;
     line-height: 1.09;
   }
 
   .card__artist {
-    max-width: 288px;
+    width: 288px;
   }
 
   .card__image {
-    width: 320px;
-    height: 395px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card__text {
+    max-width: 288px;
   }
 
   .card__image:hover {
