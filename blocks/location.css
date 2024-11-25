@@ -109,7 +109,7 @@
 @media screen and (max-width: 740px) {
   .location {
     margin: 0 auto;
-    padding: 64px 0;
+    padding: 64px 0 38px 0;
     max-width: 288px;
     display: -webkit-box;
     display: -ms-flexbox;

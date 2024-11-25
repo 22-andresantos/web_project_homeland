@@ -48,7 +48,7 @@
 @media screen and (max-width: 740px) {
   .photo-grid {
     max-width: 288px;
-    margin-top: 38px;
+    margin: 0 auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-row-align: center;
@@ -68,7 +68,7 @@
   }
 
   .photo-grid__item {
-    width: 288px;
+    max-width: 288px;
     height: 216px;
   }
 }
