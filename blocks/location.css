@@ -1,5 +1,7 @@
 .location {
-  margin: 92px 0 0px 148px;
+  margin: 0;
+  padding: 92px 0 0px 148px;
+  max-width: 830px;
 }
 
 .location__subtitle {
