@@ -1,7 +1,11 @@
 .location {
-  margin: 0;
-  padding: 92px 0 0px 148px;
-  max-width: 830px;
+  margin: auto;
+  padding: 92px 0 0;
+  width: 984px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .location__subtitle {
